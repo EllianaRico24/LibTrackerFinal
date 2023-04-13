@@ -1,0 +1,57 @@
+/* Background Color */
+.root {
+    -fx-background-color: #F6EFEF;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #F3DFD3;
+}
+
+/* Menu Items */
+.menu-item {
+    -fx-text-fill: #693C37;
+    -fx-font-size: 14px;
+}
+
+/* Table Headers */
+.table-view .column-header {
+    -fx-background-color: #F3DFD3;
+    -fx-font-size: 14px;
+}
+
+/* Table Rows */
+.table-row-cell {
+    -fx-background-color: #F6EFEF;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: #F3DFD3;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #693C37;
+    -fx-text-fill: #F6EFEF;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+}
+
+/* Disabled Menu Items */
+.menu-item:disabled {
+    -fx-opacity: 0.5;
+}
+
+/* Selected Rows*/
+.table-row-cell:filled:selected {
+    -fx-background-color: #E3C7BE;
+    -fx-text-fill: black;
+}
+
+.table-row-cell:empty:selected {
+    -fx-background-color: #E3C7BE;
+    -fx-text-fill: black;
+}
